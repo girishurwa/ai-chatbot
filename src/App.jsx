@@ -10,7 +10,7 @@ function App() {
     console.log("loading..")
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDa71dpHojXILyg1TWLnbCS-PJH_pfM4aA",
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=APIKEY",
         method: "post",
         data: {
           "contents": [
